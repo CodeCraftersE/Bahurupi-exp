@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  mvc:
+    async:
+      request-timeout: 300000
+
+gemini:
+  api:
+    key: ${GEMINI_API_KEY}
+    url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+
+logging:
+  level:
+    com.bohurupi.backend: DEBUG
+    org.springframework.web.reactive.function.client.WebClient: DEBUG

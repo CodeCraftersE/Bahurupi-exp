@@ -1,0 +1,7 @@
+{
+  "name": "Bohurupi Bangla 2.0",
+  "description": "An AI-powered, interactive cultural and tourism platform for West Bengal, featuring smart itineraries, gamified exploration, and Gemini-driven recommendations.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

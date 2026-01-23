@@ -1,0 +1,5 @@
+com\bohurupi\backend\controller\GeminiController.class
+com\bohurupi\backend\BohurupiBackendApplication.class
+com\bohurupi\backend\controller\QuizController.class
+com\bohurupi\backend\controller\ItineraryController.class
+com\bohurupi\backend\service\GeminiService.class
